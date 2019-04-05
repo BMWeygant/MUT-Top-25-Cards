@@ -1,0 +1,5 @@
+require_relative '../lib/scraper.rb'
+require_relative '../lib/cli.rb'
+
+Scraper.scrape_muthead
+CLI.new.run
